@@ -1,0 +1,57 @@
+add A<SEP>AA<SEP>1
+print ratings
+add B<SEP>BB<SEP>2
+delete movie BB
+delete movie AA
+print hashtable movie
+print hashtable reviewer
+print ratings
+add A<SEP>AA<SEP>1
+add B<SEP>BB<SEP>2
+add A<SEP>BB<SEP>3
+add B<SEP>AA<SEP>1
+print ratings
+delete reviewer A
+delete reviewer B
+print ratings
+add A<SEP>AA<SEP>1
+print ratings
+delete reviewer A
+print hashtable movie
+print hashtable reviewer
+delete movie AA
+delete movie BB
+delete reviewer A
+delete reviewer B
+print hashtable movie 
+print hashtable reviewer
+print ratings
+add A<SEP>AA<SEP>9
+add B<SEP>AA<SEP>2
+add C<SEP>AA<SEP>4
+add D<SEP>AA<SEP>3
+add A<SEP>BB<SEP>9
+add B<SEP>BB<SEP>4
+add C<SEP>BB<SEP>2
+add D<SEP>BB<SEP>3
+similar reviewer D
+add A<SEP>CC<SEP>5
+add B<SEP>CC<SEP>4
+add C<SEP>CC<SEP>8
+add D<SEP>CC<SEP>6
+add A<SEP>DD<SEP>5
+add B<SEP>DD<SEP>4
+add C<SEP>DD<SEP>5
+add D<SEP>DD<SEP>3
+add A<SEP>BB<SEP>2
+similar movie DD
+delete reviewer B
+add C<SEP>AA<SEP>9
+add B<SEP>DD<SEP>7
+similar movie DD
+add E<SEP>AA<SEP>5
+add E<SEP>BB<SEP>5
+add E<SEP>CC<SEP>5
+similar movie DD
+list reviewer C
+wrong command

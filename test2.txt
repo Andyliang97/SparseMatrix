@@ -1,0 +1,7 @@
+add you<SEP>AI<SEP>1
+list movie AI
+delete reviewer you
+list movie AI
+add jun<SEP>AI2<SEP>3
+add jun<SEP>AI3<SEP>4
+print ratings
