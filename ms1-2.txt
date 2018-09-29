@@ -1,0 +1,51 @@
+print ratings
+list reviewer Junjie
+list movie junjie
+print hashtable movie
+print hashtable reviewer
+similar reviewer junjie
+similar movie junjie
+add A<SEP>AA<SEP>0
+add A<SEP>AA<SEP>1
+similar reviewer A
+similar movie AA
+delete movie A
+delete reviewer A
+similar movie AA
+delete movie AA
+similar movie AA
+add B<SEP>BB<SEP>1
+list movie BB
+list reviewer B
+add B<SEP>CC<SEP>2
+similar movie BB
+similar movie CC
+add C<SEP>BB<SEP>3
+similar reviewer C
+similar reviewer B
+print ratings
+list wrongcommand
+similar wrongcommand
+print wrongcommand
+print hashtable wrongcommand
+delete wrongcommand
+add C<SEP>CC<SEP>4
+add C<SEP>CC<SEP>5
+add D<SEP>CC<SEP>6
+add E<SEP>BB<SEP>7
+similar movie CC
+print ratings
+add F<SEP>CC<SEP>7
+add G<SEP>CC<SEP>8
+similar movie CC
+similar reviewer G
+similar reviewer E
+list movie CC
+list reviewer C
+add H<SEP>EE<SEP>9
+list reviewer H
+delete movie EE
+list reviewer H
+add H<SEP>FF<SEP>9
+delete reviewer H
+list movie FF
